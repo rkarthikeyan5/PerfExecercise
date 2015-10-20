@@ -65,3 +65,9 @@ JAVA_OPTS="-DtestDuration=1200 -DrampUpTimeSecs=100 -DnoofCPRusers=1 -DnoofCMuse
 View it from the results folder - ../ghe_perf/results/ghescenario-1445322963360/index.html
 
 <p><b>Folder Tree Details </b>.</p>
+
+Userflow simulation files - /user-files/simulations/githubEnt
+Scenario Definition file -  /user-files/simulations/githubEnt/ghescenario.scala
+Header file - /user-files/simulations/githubEnt/gheheaders.scala
+Data file - /user-files/data/userLogins.csv
+Results file - /results/ghescenario-1445322963360

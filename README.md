@@ -64,6 +64,14 @@ Unicorn, Elastic Search, Redis, Memcache, System resource metrics, SQL profiles 
 
 The following start command will run 1 user per workflow for 1200 seconds with a rampup of 100 seconds with a max duration (hard stop) of around 1300 seconds.  We can change the parameters with the think time to simulate the other scenarios that we have mentioned earlier.  
 
+User Flows Defined - 
+	CPR - Comment on Pull Req
+	CM - Commit to Master
+	CBCP - Create Branch and create a pull req
+	DR - Download Repo
+	
+Start Script - 
+
 JAVA_OPTS="-DtestDuration=1200 -DrampUpTimeSecs=100 -DnoofCPRusers=1 -DnoofCMusers=1 -DnoofCBCPusers=1 -DnoofDRusers=1 -DmaxDurationSecs=1300" ./gatling.sh -s ghe.ghescenario
 
 <p><b>Sample Test Results </b>.</p>

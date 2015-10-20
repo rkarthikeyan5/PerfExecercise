@@ -54,6 +54,12 @@ APM for Rails/PHP/JAVA profiling, Server monitors, openTSDB/Graphite etc., icing
 <p><b>Load Simulation </b>.</p>
 Gatling (used here). Other options include Grinder(Python), Jmeter(Java) and other open source tools.
 
+<p><b>Monitoring & Alerting </b>.</p>
+Without knowing much about the backend under test (with few information I have from admin console), we would engage in monitoring the key metrics of the following items - 
+
+Unicorn, Elastic Search, Redis, Memcache, System resource metrics, SQL profiles etc., for each type of tests.  
+
+
 <p><b>Invoking the scenario </b>.</p>
 
 The following start command will run 1 user per workflow for 1200 seconds with a rampup of 100 seconds with a max duration (hard stop) of around 1300 seconds.  We can change the parameters with the think time to simulate the other scenarios that we have mentioned earlier.  

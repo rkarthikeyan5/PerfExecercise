@@ -66,8 +66,8 @@ View it from the results folder - ../ghe_perf/results/ghescenario-1445322963360/
 
 <p><b>Folder Tree Details </b>.</p>
 
-Userflow simulation files - /user-files/simulations/githubEnt
-Scenario Definition file -  /user-files/simulations/githubEnt/ghescenario.scala
-Header file - /user-files/simulations/githubEnt/gheheaders.scala
-Data file - /user-files/data/userLogins.csv
+Userflow simulation files - /user-files/simulations/githubEnt    <br>
+Scenario Definition file -  /user-files/simulations/githubEnt/ghescenario.scala  <br>
+Header file - /user-files/simulations/githubEnt/gheheaders.scala  <br>
+Data file - /user-files/data/userLogins.csv  <br>
 Results file - /results/ghescenario-1445322963360

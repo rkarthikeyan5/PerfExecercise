@@ -65,10 +65,10 @@ Unicorn, Elastic Search, Redis, Memcache, System resource metrics, SQL profiles 
 The following start command will run 1 user per workflow for 1200 seconds with a rampup of 100 seconds with a max duration (hard stop) of around 1300 seconds.  We can change the parameters with the think time to simulate the other scenarios that we have mentioned earlier.  
 
 User Flows Defined - 
-	CPR - Comment on Pull Req
-	CM - Commit to Master
-	CBCP - Create Branch and create a pull req
-	DR - Download Repo
+	CPR - Comment on Pull Req<br>
+	CM - Commit to Master<br>
+	CBCP - Create Branch and create a pull req<br>
+	DR - Download Repo<br>
 	
 Start Script - 
 

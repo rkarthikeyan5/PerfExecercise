@@ -57,7 +57,7 @@ Gatling (used here). Other options include Grinder(Python), Jmeter(Java) and oth
 <p><b>Monitoring & Alerting </b>.</p>
 Without knowing much about the backend under test (with few information I have from admin console), we would engage in monitoring the key metrics of the following items - 
 
-Unicorn, Elastic Search, Redis, Memcache, System resource metrics, SQL profiles etc., for each type of tests.  
+Unicorn, Elastic Search, Redis, Memcache, System resource metrics, SQL profiles and web/app/db logs (typically using a log parsing tool like splunk, sumo)  etc., for each type of tests.  
 
 
 <p><b>Invoking the scenario </b>.</p>
